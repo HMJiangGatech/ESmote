@@ -507,8 +507,8 @@ void NNet::sgdtrain(double learnRate, int iterations, int batchSize, int trainMo
   arma::uvec subID;
   for(int i=0;i<fullSize;i++) shuffledID[i]=i;
   arma::mat trainBatch;
-  int alliter, citer=0;
-  alliter = iterations*ceil(1.0*fullSize/batchSize);
+  //int alliter, citer=0;
+  //alliter = iterations*ceil(1.0*fullSize/batchSize);
   for(int i=0;i<iterations;i++)
   {
     shuffledID = arma::shuffle(shuffledID);

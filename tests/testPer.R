@@ -4,7 +4,7 @@ newlabel[newlabel>0] = 1;
 newID = sample(60000);
 timestart<-Sys.time();
 
-# newdata<-esmote::Smote(digitsTrain[newID,],newlabel[newID], algorithm="rp_forest");
+newdata<-esmote::Smote(digitsTrain[newID,],newlabel[newID], algorithm="rp_forest");
 # newdata <- DMwR::SMOTE(label ~.,tdata, perc.over = 200,perc.under=100);
 # newdata <- smotefamily::SMOTE(digitsTrain,newlabel);
 # newdata <- ubSMOTE(X=digitsTrain,Y=as.factor(1-newlabel),perc.under = 100);
