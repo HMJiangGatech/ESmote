@@ -1,0 +1,13 @@
+Package: esmote
+Title: Efficient Synthetic Minority Over-sampling TEchnique (ESMOTE)
+Version: 0.0.0.9000
+Authors@R: person("Haoming", "Jiang", email = "jinghm@ustc.edu.cn", role = c("aut", "cre"))
+Description: This is an efficient implementation of SMOTE. By introducing advanced optimization techniques, SMOTE can fit large scale data with high dimensionality.
+Depends: R (>= 3.2.3)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp, RcppArmadillo, largeVis, inline
